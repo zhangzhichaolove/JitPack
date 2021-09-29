@@ -2,6 +2,13 @@ plugins {
     id 'com.android.application'
 }
 
+repositories {
+    mavenCentral()
+    google()
+    maven { url "https://jitpack.io" }
+    jcenter()
+}
+
 android {
     compileSdk 30
 
