@@ -6,8 +6,8 @@ plugins {
 repositories {
     mavenCentral()
     google()
-    jcenter()
     maven { url "https://jitpack.io" }
+    jcenter()
 }
 
 group = 'com.github.zhangzhichaolove'
