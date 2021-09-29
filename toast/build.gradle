@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
+
+apply from: rootProject.projectDir.path + '/publish.gradle'
 
 android {
     compileSdk 30
