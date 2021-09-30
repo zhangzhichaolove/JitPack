@@ -2,13 +2,6 @@ plugins {
     id 'com.android.application'
 }
 
-repositories {
-    mavenCentral()
-    google()
-    maven { url "https://jitpack.io" }
-    jcenter()
-}
-
 android {
     compileSdk 30
 
@@ -44,5 +37,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation 'com.github.zhangzhichaolove.JitPack:final:1.0.6'
+    implementation 'com.github.zhangzhichaolove.JitPack:final:1.0.8'
 }

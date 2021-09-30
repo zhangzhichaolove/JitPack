@@ -3,13 +3,6 @@ plugins {
     id 'maven-publish'
 }
 
-repositories {
-    mavenCentral()
-    google()
-    maven { url "https://jitpack.io" }
-    jcenter()
-}
-
 //group = 'com.github.zhangzhichaolove'
 //version = '1.0.0'
 
