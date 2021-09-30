@@ -10,8 +10,8 @@ repositories {
     jcenter()
 }
 
-group = 'com.github.zhangzhichaolove'
-version = '1.0.0'
+//group = 'com.github.zhangzhichaolove'
+//version = '1.0.0'
 
 apply from: rootProject.projectDir.path + '/publish.gradle'
 
